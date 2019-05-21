@@ -1,6 +1,7 @@
 # blog
 
 ## Install
+[install ruby](https://www.ruby-lang.org/en/documentation/installation/)
 ```
 gem install jekyll bundler
 cd docs
@@ -21,4 +22,10 @@ Configuration file: /Users/yoyota/work/blog-tmp/docs/_config.yml
 Configuration file: /Users/yoyota/work/blog-tmp/docs/_config.yml
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
+```
+
+
+## How to import assets in post markdown file
+```
+![sample_image](/assets/sample/time.png)
 ```
