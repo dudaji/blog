@@ -1,6 +1,7 @@
 # blog
 
 ## Install
+[install ruby](https://www.ruby-lang.org/en/documentation/installation/)
 ```
 gem install jekyll bundler
 cd docs
