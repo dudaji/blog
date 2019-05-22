@@ -11,7 +11,7 @@ exclude:
 # Site settings
 title: 두다지 블로그
 subtitle: "Tech Blog"
-email: ytyoo@dudaji.com
+email: shhong@dudaji.com
 name: Dudaji
 description: >
   Tech blog
@@ -72,8 +72,8 @@ descriptions:
 social:
   - name: GitHub
     icon: github
-    username: huhuta
-    url: https://github.com/huhuta
+    username: dudaji
+    url: https://github.com/dudaji
     desc: Fork me on GitHub
     share: false
 
