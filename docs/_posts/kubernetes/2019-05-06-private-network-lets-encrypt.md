@@ -7,7 +7,7 @@ comments: true
 ---
 
 ## 배경
-Docker registry에 self signed certificate를 사용할 경우 Host에 따로 인증서를 추가해주거나
+Docker registry에 self signed certificate를 사용할 경우 Host에 따로 인증서를 추가해주거나  
 insecure registry를 추가주어야 하는 번거로움이 있습니다.
 
 ## How it works
@@ -41,3 +41,10 @@ ingress 설정을 할때는 annotations에 dns 01, clouddns를 사용하는 것�
 certmanager.k8s.io/acme-challenge-type: dns01
 certmanager.k8s.io/acme-dns01-provider: clouddns
 ```
+
+## Tips
+let's encrypt에는 [rate limit](https://letsencrypt.org/docs/rate-limits/)이 존재합니다.  
+테스트 하실 때는 먼저 [staging-environment](https://letsencrypt.org/docs/staging-environment/)를 사용하는 것이 좋습니다. 
+
+
+
