@@ -5,6 +5,11 @@ author: bubuta
 categories: kubernetes
 comments: true
 ---
+
+## 배경
+Docker registry에 self signed certificate를 사용할 경우 Host에 따로 인증서를 추가해주거나
+insecure registry를 추가주어야 하는 번거로움이 있습니다.
+
 ## How it works
 [let's encrypt challenge type](https://letsencrypt.org/docs/challenge-types/)  
 dns01 challenge를 이용하면 private network에서 lets encrypt 인증서를 받을 수 있습니다.    
