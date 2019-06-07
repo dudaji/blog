@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "KubeCon Europe 2019 후기 - 1.개요"
+title: "KubeCon Europe 2019 후기(1) - 요약"
 author: shhong
 categories: kubernetes
 comments: true
