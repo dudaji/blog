@@ -8,7 +8,9 @@ comments: true
 
 ### 시나리오
 
-![auth-scenario](/assets/k8s-authorization-of-sa-with-rbac/auth-scenario.png)admin : 모든 권한을 가짐
+![auth-scenario](/assets/k8s-authorization-of-sa-with-rbac/auth-scenario.png)
+
+admin : 모든 권한을 가짐
 
 department-leader : namespace team-a와 team-b에 대한 권한을 가짐
 
