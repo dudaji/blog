@@ -49,7 +49,7 @@ katacoda의 반응성 문제는 해결방법을 모르겠습니다. 네트워크
 
 #### kelseyhightower/kubernetes-the-hard-way (Github repo) (추천)
 
-kelseyhightower 님이 작성하신 [kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) 튜토리얼입니다. CKA합격이 목푤면 직접 따라할 필요까지는 없어보입니다. 저는 kodekloud 강의 다 보고 나서 2번정도 읽었습니다. 직접적으로 문제출제가 되는 영역은 아닌데 보고나면 쿠버네티스의 전체적인 이해도에 도움이 되며, Troubleshooting 문제 풀 때도 간접적으로 도움이 됩니다. 읽는 데 오래걸리지는 않으니까 보시는걸 추천해요.
+kelseyhightower 님이 작성하신 [kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) 튜토리얼입니다. 직접 따라하면서 실습까지 할 필요는 없어보입니다. 저는 kodekloud 강의 다 보고 나서 2번정도 읽었습니다. 직접적으로 문제출제가 되는 영역은 아닌데 보고나면 쿠버네티스의 전체적인 이해도에 도움이 되며, Troubleshooting 문제 풀 때도 간접적으로 도움이 됩니다. 읽는 데 오래걸리지는 않으니까 보시는걸 추천해요.
 <br/>
 
 
@@ -63,14 +63,14 @@ kelseyhightower 님이 작성하신 [kubernetes-the-hard-way](https://github.com
 
 #### dgkanatsios/CKAD-exercises (Github repo)
 
-dgkanatsios 님의 [CKAD 연습문제 모음집](https://github.com/dgkanatsios/CKAD-exercises)입니다. CKAD 용이긴 하지만 CKA와 CKAD가 겹치는 영역이 많아서 겹치는 영역만 보시면 될 것 같습니다.
+dgkanatsios 님의 [CKAD 연습문제 모음집](https://github.com/dgkanatsios/CKAD-exercises)입니다. CKAD 용이긴 하지만 CKA와 CKAD가 겹치는 영역이 많아서 겹치는 부분만 보시면 될 것 같습니다.
 <br/>
 
 
 
 #### twajr/ckad-prep-notes (Github repo)
 
-twajr 님이 작성하신 [CKAD 요약 노트](https://github.com/twajr/ckad-prep-notes)입니다. CKAD 용이지만 이것도 마찬가지로 겹치는 영역이 많아서 그 부분만 골라서 잘 보면 될 것 같습니다. 여러가지 Tip들도 많이 적혀있어요.
+twajr 님이 작성하신 [CKAD 요약 노트](https://github.com/twajr/ckad-prep-notes)입니다. CKAD 용이지만 이것도 마찬가지로 겹치는 영역이 많아서 그 부분만 잘 골라서 보시면 될 것 같습니다. 여러가지 Tip들도 적혀있어요.
 
 
 <br/>
@@ -89,7 +89,7 @@ twajr 님이 작성하신 [CKAD 요약 노트](https://github.com/twajr/ckad-pre
 
 #### 접속 및 시간엄수
 
-메일로 시험환경에 접속할 수 있는 링크를 줍니다. 15분 전부터 접속이 가능한데, 바로 들어가시는게 좋습니다. 신분증 및 주변환경 확인 등 이것저것 하는데 15분정도 걸립니다. 시간 카운트는 시험이 시작되고나서부터 진행되기 때문에 미리 접속하지 않는다고 시간적인 불이익이 있지는 않을 것 같습니다.
+메일로 시험환경에 접속할 수 있는 링크를 줍니다. 15분 전부터 접속이 가능한데, 바로 들어가시는게 좋습니다. 신분증 및 주변환경 확인 등 이것저것 하는데 15분정도 걸립니다. 시간 카운트는 시험이 시작되고나서부터 진행되기 때문에 미리 접속하지 않는다고 시간적인 불이익이 있을 것 같진 않습니다.
 <br/>
 
 
