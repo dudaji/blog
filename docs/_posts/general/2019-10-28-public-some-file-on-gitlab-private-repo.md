@@ -16,8 +16,8 @@ The Pages access control dropdown allows you to set who can view pages hosted wi
   - Only project members: Only project members will be able to browse the website.
   - Everyone: Everyone, both logged into and logged out of GitLab, will be able to browse the website, no matter their project membership.
 
-> You can set gitlab page permission in  
-> Settings > General > Pemissions 
+You can set gitlab page permission in  
+Settings > General > Pemissions 
 
 # Example
 Add .gitlab-ci.yml to your gitlab project
