@@ -2,7 +2,6 @@
 layout: post
 title: "두다지 스티커 출시 !"
 author: soonbee
-categories: news
 comments: true
 ---
 
