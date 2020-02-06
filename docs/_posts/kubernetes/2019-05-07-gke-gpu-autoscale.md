@@ -1,10 +1,5 @@
----
-layout: post
-title: "gke scaleable gpu cluster terraform 예제"
-author: bubuta
-categories: kubernetes
-comments: true
----
+# GKE GPU AUTO SCALE TERRAFORM
+
 GKE scaleable gpu cluster Terraform 예제
 
 ## 좋은 점
@@ -30,7 +25,7 @@ cd terraform-gke
 
 key.json credential file 필요
 
-test/provider.tf
+example/provider.tf
 
 ```
 variable "project" {
@@ -40,15 +35,17 @@ variable "project" {
 provider "google" {
   credentials = "${file("../key.json")}"
   project     = "${var.project}"
-  zone        = "us-central1-c"
+  zone        = "asia-northeast-3"
+}
 }
 ```
 
-gke cluster를 만들겠습니다. (\$PROJECT_NAME을 변경 필요)
+gke cluster를 만들겠습니다.
 
 ```
-$ terraform apply -var 'project=$PROJECT_NAME'
-Plan: 9 to add, 0 to change, 0 to destroy.
+$ cd example
+$ terraform apply
+Plan: 6 to add, 0 to change, 0 to destroy.
 
 Do you want to perform these actions?
   Terraform will perform the actions described above.
@@ -57,7 +54,7 @@ Do you want to perform these actions?
   Enter a value:
 ```
 
-10분 소요됩니다.
+10분 정도 소요됩니다.
 
 ```
 module.gke.google_container_cluster.ml_cluster: Creating...
@@ -105,8 +102,7 @@ gke-test-cpu-1-131599f3-8p2l   Ready    <none>   16m   v1.12.7-gke.10
 아래 pod 을 생성합니다.
 
 ```
-apiVersion: v1
-kind: Pod
+apiVersion: v1 kind: Pod
 metadata:
   name: gpu-pod
 spec:
