@@ -23,7 +23,7 @@ master로 사용한 pc는 인텔의 베어본pc NUC7CJYH (RAM-8G / SSD-240GB) �
 
 ## os 설치
 
-os는 ubuntu 18.04를 사용했다. 부팅usb를 만들 때 [Etcher](https://www.balena.io/etcher/)를 사용하면 편하게 만들 수 있습니다.
+os는 ubuntu 18.04를 사용했습니다. 부팅usb를 만들 때 [Etcher](https://www.balena.io/etcher/)를 사용하면 편하게 만들 수 있습니다.
 
 혹시 한글설정이 필요하다면 [여기]([https://gabii.tistory.com/entry/Ubuntu-1804-LTS-%ED%95%9C%EA%B8%80-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95](https://gabii.tistory.com/entry/Ubuntu-1804-LTS-한글-설치-및-설정))가서 따라하시면 됩니다.
 
@@ -99,7 +99,7 @@ systemctl restart docker
 
 <br/>
 
-그 다음 쿠버네티스 클러스터 구성을 위해 필요한 `kubeadm`, `kubelel`, `kubectl` 을 설치해줍시다.
+그 다음 쿠버네티스 클러스터 구성을 위해 필요한 `kubeadm`, `kubelet`, `kubectl` 을 설치해줍시다.
 ```sh
 apt-get update && apt-get install -y apt-transport-https curl
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -

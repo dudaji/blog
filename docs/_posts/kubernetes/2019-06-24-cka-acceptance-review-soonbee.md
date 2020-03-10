@@ -176,9 +176,9 @@ source <(k completion bash) # auto completion enable
 complete -F __start_kubectl k # auto completion with command 'k'
 ```
 
-`.vimrc`의 경우 tab을 2 space로 바꾸고 라인표시를 위해서 사용했구요, `.bashrc`의 경우 **kubecetl 대신 k를 사용하도록(진짜 편해요)** 그리고 [auto completion](https://kubernetes.io/docs/tasks/tools/install-kubectl/#enabling-shell-autocompletion)을 사용하도록 설정했습니다. 외워놨다가 시작하자마자 설정부터 하고 시작했어요.
+`.vimrc`의 경우 tab을 2 space로 바꾸고 라인표시를 위해서 사용했구요, `.bashrc`의 경우 **kubectl 대신 k를 사용하도록(진짜 편해요)** 그리고 [auto completion](https://kubernetes.io/docs/tasks/tools/install-kubectl/#enabling-shell-autocompletion)을 사용하도록 설정했습니다. 외워놨다가 시작하자마자 설정부터 하고 시작했어요.
 
-특히 **auto completion은 정말 좋은게 오타 걱정이 없습니다.** tab을 누르면 자동완성이 되요. deployment, rolebinding 등 길이가 긴 리소스의 이름도 가능하고 create, delete 등의 command도 자동완성이 됩니다. 그리고 예를들어 pod 중 이름이 pod-ahrddss-11245 같은게 있으면 치다가 오타나거나 copy & paste 해야하는 번거로움이 있습니다. 이러한 오프젝트들의 이름도 자동완성이 가능합니다. bash completion이 설치되어 있어야 설정이 가능한데, 기본적으로 설치되어있어서 설치해야하는 수고로움은 필요 없습니다.
+특히 **auto completion은 정말 좋은게 오타 걱정이 없습니다.** tab을 누르면 자동완성이 되요. deployment, rolebinding 등 길이가 긴 리소스의 이름도 가능하고 create, delete 등의 command도 자동완성이 됩니다. 그리고 예를들어 pod 중 이름이 pod-ahrddss-11245 같은게 있으면 치다가 오타나거나 copy & paste 해야하는 번거로움이 있습니다. 이러한 **오브젝트들의 이름도 자동완성이 가능**합니다. bash completion이 설치되어 있어야 설정이 가능한데, 기본적으로 설치되어있어서 설치해야하는 수고로움은 필요 없습니다.
 
 tmux도 사용하시면 유용합니다. 다른 node로 ssh 접속할때나 화면 스플릿 용으로 유용합니다. 기본적으로 깔려있지는 않아서 `apt install tmux` 를 통해 설치해주셔야 합니다. 다만 왜그런지는 잘 모르겠는데 tmux로 새로 생성한 세션은 위에서 설정한 것(vimrc, bashrc)들이 적용되어 있지 않더라구요. 저는 처음에 엄청 당황했는데, 여러분들은 당황하지 않고 침착하게 하시면 됩니다.
 <br/>
@@ -273,7 +273,7 @@ daemonset : ds
 
 #### 라벨링
 
-시험환경으로 k8s, hk8s, bk8s 등등 여러 클러스터가 있는데, 대부분의 문제가 k8s 위에서 이루어집니다. 처음에 label 붙일 때 간편하게 `name: nginx` 등으로 붙였는데, 나중에 다른 문제에서도 nginx 이미지를 사용하다 보니까 헷갈리더라구요. label 붙일 때 문항번호를 적어서 `app: 8_nginx` 나 `app: nginx` `question: 8`  등으로 2개 라벨을 활용하면 좀 더 편했을텐데 라는 생각이 들었습니다.
+시험환경으로 k8s, hk8s, bk8s 등등 여러 클러스터가 있는데, 대부분의 문제가 k8s 위에서 이루어집니다. 처음에 label 붙일 때 간편하게 `name: nginx` 등으로 붙였는데, 나중에 다른 문제에서도 nginx 이미지를 사용하다 보니까 헷갈리더라구요. label 붙일 때 문항번호를 적어서 `app: 8_nginx` 나 `app: nginx, question: 8`  등으로 2개 라벨을 활용하면 좀 더 편했을텐데 라는 생각이 들었습니다.
 
 
 
