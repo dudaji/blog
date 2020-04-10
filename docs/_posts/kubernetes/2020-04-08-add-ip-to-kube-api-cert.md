@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GCE에 설치한 쿠버네티스 클러스터를 내 로컬에서 만지고 싶어! 
+title: GCE에 설치한 쿠버네티스 클러스터를 내 로컬 kubectl에서
 author: kb
 categories: kubernetes
 comments: true
