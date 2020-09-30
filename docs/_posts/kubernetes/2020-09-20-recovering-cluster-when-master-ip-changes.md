@@ -99,7 +99,9 @@ sudo systemctl restart docker
 sudo cp /etc/kubernetes/admin.conf $HOME/.kube/config
 ```
 
-### 9. 끝!
+### 9. 마지막으로 kube-public namespace에 있는 configmap중 cluster-info에서 아이피를 새로운 아이피로 수정하면 됩니다.
+
+### 10. 끝!
 
 
 클러스터 복구만 시키는 것이기 때문에 이전 아이피를 가지고 있는 다른 서비스들은 별도의 복구 과정을 거쳐야 합니다.
